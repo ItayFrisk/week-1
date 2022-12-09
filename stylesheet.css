@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    font-family: 'Raleway';
+    font-size: 13px;
+    color: white;
+}
+
+body{
+    background-color: hsl(229, 57%, 11%);
+    background-image: url("/Fylo-Enhanced/assets/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: contain;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+.margin{
+    margin-bottom: 10rem;
+}
+.floating-sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 32px;
+}
+
+.shape1{
+    width: 27.5rem;
+    height: 200px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 5%;
+} 
+
+.shape2{
+    width:50rem;
+    height: 150px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 5%;
+    position:relative;
+    margin: 0;
+    margin-top: 3.45%;
+}
+
+.shape2-container{
+    width:90%;
+    padding-left: 5%;
+    margin-right: 0;
+}
+
+.margin-bottom{
+    margin-bottom: 10rem;
+}
+
+.border-radius{
+    border-top-right-radius: 35%; 
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-align-items{
+    align-items: center;
+}
+
+.flex-justify-content{
+    justify-content: center;
+}
+
+.flex-justify-content-start{
+    justify-content: flex-start;
+}
+
+.flex-justify-content-end{
+    justify-content: flex-end;
+}
+
+.flex-justify-content-between{
+    justify-content: space-between;
+}
+
+.shape1-containter{
+    padding-left: 3rem;
+    gap: 40px;
+}
+
+.buttons-containter{
+    gap:15px;
+}
+
+button{
+    background-color: hsl(229, 57%, 11%);
+    border: 0;
+    border-radius: 25%;
+    height: 45px;
+    width: 45px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active
+{
+    background-color: hsl(228, 56%, 26%);
+}
+
+.height{
+    height: 100%;
+}
+
+.width{
+    width: 100%;
+}
+
+.loading-shape{
+    background-color: hsl(229, 57%, 11%);
+    height: 1.35rem;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.loading-shape-color{
+    height: 86.5%;
+    width: 0;
+    background-image: linear-gradient(to right,hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+    border-radius: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    transition: width 1s;
+}
+
+.white-dot{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 0.185rem;
+}
+
+.bubble {
+    position: absolute;
+    top : -25%;
+    right : 35px;
+    background: white;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 120px;
+    text-align: center;
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    padding: 0px;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent white transparent transparent;
+    bottom: -20px;
+    left: 94%;
+    margin-left: -10px;
+}
+.space-used{
+    letter-spacing: 0.05em;
+}
+.text-bubble-container{
+    padding-left: 20%;
+}
+
+.text-bubble{
+    font-size: medium;
+    font-weight: 400;
+    color:hsl(229, 57%, 11%);
+    gap: 10px;
+}
+
+.inner-text{
+    font-size: xx-large;
+    font-weight: bold;
+    color: hsl(229, 57%, 11%);
+}
+
+.inner-text2{
+    color: gray;
+    margin: 0;
+    padding-top: 0.25rem;
+    padding-right: 0.5rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    font-weight: 1000;
+}
+span{
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}

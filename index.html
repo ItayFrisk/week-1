@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles/stylesheet.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <title>Fylo data storage component</title> 
+</head>
+
+<body class="floating-sections flex-align-items">
+    <div class="floating-sections margin-bottom">
+
+      <div class = "shape1 border-radius">
+        <div class="flex flex-column flex-justify-content height shape1-containter ">
+
+          <div class="flex">
+            <img src=".//assets/logo.svg"/>
+          </div>
+
+          <input type="file" id="real-file" multiple hidden/>
+
+          <div class="flex buttons-containter">
+            <button> <img src="./assets/icon-document.svg"/> </button>
+            <button> <img src="./assets/icon-folder.svg"/> </button>
+            <button id="custom-button"> <img src="./assets/icon-upload.svg"/> </button>
+            
+            <div class="flex flex-align-items">
+               <span id="custom-text">Upload Image</span> 
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class = "shape2">
+
+        <div class="bubble">
+          <div class="flex flex-align-items height text-bubble-container">
+            <div class="text-bubble flex flex-justify-content-between">
+              <b class="inner-text" id = "amount-left">0</b> <b class="inner-text2">MB LEFT </b>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flex flex-column flex-justify-content height shape2-container">
+          <p class="amount-used">
+            You've used
+             <b id="amount-used">0 MB</b> 
+            of your storage
+          </p>
+
+          <div class="loading-shape flex flex-justify-content-start flex-align-items">
+            <div class="loading-shape-color flex flex-align-items flex-justify-content-end" id = "loading-shape-color">
+              <div class="white-dot">
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-justify-content-between">
+            <p>0 MB</p>
+            <p>10 MB</p>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+  <script src="./img-upld.js"></script>
+</body>
+</html>
